@@ -2,14 +2,14 @@ require 'pry'
 
 class CashRegister
 
-attr_accessor :total
+attr_accessor :total, discount:
 
   def initialize(total = 0)
     @total = total
   end
 
   def discount
-    self.total 
+    self.total
   end
 
   def add_item(key, value)
