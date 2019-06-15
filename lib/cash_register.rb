@@ -9,7 +9,7 @@ attr_accessor :total
   end
 
   def discount
-    self.total += 0
+    self.total 
   end
 
   def add_item(key, value)
