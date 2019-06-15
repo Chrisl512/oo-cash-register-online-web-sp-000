@@ -2,11 +2,12 @@ require 'pry'
 
 class CashRegister
 
-attr_accessor :total, :discount
+attr_accessor :total, :discount, :item
 
   def initialize(discount = 0)
     @total = 0
     @discount = discount
+    @items = []
   end
 
   def apply_discount
