@@ -11,7 +11,7 @@ attr_accessor :total, :discount, :item, :laast_transaction
   end
 
   def apply_discount
-    
+
   end
 
   def add_item(title, price, quantity = 1)
