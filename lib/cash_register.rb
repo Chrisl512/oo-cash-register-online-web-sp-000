@@ -35,6 +35,7 @@ attr_accessor :total, :discount, :item, :last_transaction
     else
       @items << title
     end
+    @items
   end
 
 end
