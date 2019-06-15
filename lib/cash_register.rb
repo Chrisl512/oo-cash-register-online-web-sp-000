@@ -25,7 +25,7 @@ attr_accessor :total, :discount, :item, :last_transaction
    end
   end
 
-  def items
+  def items(quantity)
     if quantity>1
       i=0
       while i<quantity
