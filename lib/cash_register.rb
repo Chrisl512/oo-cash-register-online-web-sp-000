@@ -16,7 +16,9 @@ attr_accessor :total, :discount, :item, :last_transaction
   end
 
   def apply_discount
-    @discount = @discount/100.to_f
+    if @discount > 0
+      @discount = @discount/100.to_f
+      
   end
 
 end
