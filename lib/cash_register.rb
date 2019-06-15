@@ -8,7 +8,7 @@ attr_accessor :total
     @total = total
   end
 
-  def discount
+  def apply_discount
     self.total
   end
 
