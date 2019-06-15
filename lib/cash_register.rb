@@ -26,7 +26,15 @@ attr_accessor :total, :discount, :item, :last_transaction
   end
 
   def items
-    @items 
+    if quantity>1
+      i=0
+      while i<quantity
+        @items << title
+        i+=1
+      end
+    else
+      @items << title
+    end
   end
 
 end
