@@ -40,7 +40,7 @@ attr_accessor :total, :discount, :item, :last_transaction
   end
 
   def void_last_transaction
-    @total - 
+    @total -
   end
 
 end
