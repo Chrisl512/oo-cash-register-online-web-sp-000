@@ -6,6 +6,7 @@ attr_accessor :total
 
   def initialize(total = 0)
     @total = total
+    @discount = 0
   end
 
   def apply_discount
