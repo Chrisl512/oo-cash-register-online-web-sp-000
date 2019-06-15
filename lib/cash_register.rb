@@ -32,5 +32,3 @@ attr_accessor :total, :discount, :item, :last_transaction
       "There is no discount to apply."
    end
   end
-
-
