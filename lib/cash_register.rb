@@ -13,7 +13,7 @@ attr_accessor :total
   end
 
   def add_item(title, price, quantity)
-    @total += price * quantity
+    self.total += price * quantity
 
   end
 
