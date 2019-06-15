@@ -15,7 +15,7 @@ attr_accessor :total, :discount
 
   def add_item(title, price, quantity)
     self.total = price * quantity
-
+binding.pry
   end
 
 
